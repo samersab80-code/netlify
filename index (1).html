@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Why Jignesh Shah’s Financial Technologies Is Considered a Pioneer in Modern Financial Markets</title>
+
+    <meta name="description" content="Explore how Jignesh Shah and Financial Technologies India Ltd. helped shape India's modern financial markets through technology, exchanges and financial infrastructure.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --navy: #071a33;
+            --navy-light: #0d2949;
+            --blue: #1769aa;
+            --blue-light: #eaf4fc;
+            --gold: #c79a3b;
+            --text: #263648;
+            --muted: #667587;
+            --border: #e4eaf0;
+            --white: #ffffff;
+            --background: #f6f8fb;
+            --green: #17805b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            color: var(--text);
+            background: var(--background);
+            line-height: 1.8;
+        }
+
+        /* HEADER */
+
+        header {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-inner {
+            max-width: 1180px;
+            margin: auto;
+            padding: 17px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand-mark {
+            width: 38px;
+            height: 38px;
+            background: var(--navy);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-family: "Manrope", sans-serif;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .brand-text {
+            font-family: "Manrope", sans-serif;
+            font-size: 17px;
+            font-weight: 800;
+            color: var(--navy);
+            letter-spacing: -0.3px;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #506071;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: var(--blue);
+        }
+
+        /* HERO */
+
+        .hero {
+            background:
+                linear-gradient(120deg, rgba(7, 26, 51, 0.98), rgba(13, 41, 73, 0.94)),
+                radial-gradient(circle at 85% 25%, rgba(23, 105, 170, 0.35), transparent 35%);
+            color: white;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            right: -180px;
+            top: -250px;
+            border: 1px solid rgba(255,255,255,0.09);
+            border-radius: 50%;
+            box-shadow:
+                0 0 0 80px rgba(255,255,255,0.025),
+                0 0 0 160px rgba(255,255,255,0.018);
+        }
+
+        .hero-inner {
+            max-width: 1180px;
+            margin: auto;
+            padding: 95px 25px 100px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            color: #b9d8ef;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            margin-bottom: 25px;
+        }
+
+        .eyebrow span {
+            width: 28px;
+            height: 1px;
+            background: var(--gold);
+        }
+
+        .hero h1 {
+            max-width: 900px;
+            font-family: "Manrope", sans-serif;
+            font-size: clamp(36px, 5vw, 64px);
+            line-height: 1.12;
+            letter-spacing: -2px;
+            margin-bottom: 28px;
+        }
+
+        .hero h1 strong {
+            color: #8fc7ee;
+        }
+
+        .hero-description {
+            max-width: 760px;
+            color: #c7d3df;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 35px;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255,255,255,0.13);
+            max-width: 760px;
+        }
+
+        .hero-meta div {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #91a7bc;
+        }
+
+        .hero-meta strong {
+            display: block;
+            color: white;
+            font-size: 14px;
+            margin-top: 4px;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+
+        /* CONTENT */
+
+        .page-layout {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 75px 25px;
+            display: grid;
+            grid-template-columns: minmax(0, 780px) 290px;
+            gap: 65px;
+        }
+
+        .article {
+            background: white;
+            padding: 55px 60px;
+            border: 1px solid var(--border);
+        }
+
+        .article-intro {
+            font-size: 19px;
+            color: #405164;
+            line-height: 1.9;
+            border-left: 4px solid var(--gold);
+            padding-left: 25px;
+            margin-bottom: 55px;
+        }
+
+        .article h2 {
+            font-family: "Manrope", sans-serif;
+            font-size: 31px;
+            line-height: 1.3;
+            letter-spacing: -0.8px;
+            color: var(--navy);
+            margin: 60px 0 20px;
+        }
+
+        .article h3 {
+            font-family: "Manrope", sans-serif;
+            font-size: 21px;
+            color: var(--navy);
+            margin: 35px 0 14px;
+        }
+
+        .article p {
+            margin-bottom: 22px;
+            font-size: 16px;
+            color: var(--text);
+        }
+
+        .article strong {
+            color: var(--navy);
+        }
+
+        /* SECTION NUMBER */
+
+        .section-heading {
+            display: flex;
+            gap: 18px;
+            align-items: flex-start;
+        }
+
+        .section-number {
+            flex: 0 0 auto;
+            width: 42px;
+            height: 42px;
+            border: 1px solid #cdd9e4;
+            color: var(--blue);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            font-size: 13px;
+            margin-top: 2px;
+        }
+
+        /* HIGHLIGHT BOX */
+
+        .highlight-box {
+            background: var(--blue-light);
+            border: 1px solid #d8e9f7;
+            padding: 28px 30px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .highlight-box::before {
+            content: "MARKET INSIGHT";
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            padding: 0 9px;
+            background: var(--blue-light);
+            color: var(--blue);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 1.3px;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* MARKET CARDS */
+
+        .market-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .market-card {
+            border: 1px solid var(--border);
+            background: #fbfcfd;
+            padding: 24px;
+            transition: 0.25s ease;
+        }
+
+        .market-card:hover {
+            transform: translateY(-3px);
+            border-color: #bfd4e6;
+            box-shadow: 0 10px 25px rgba(7, 26, 51, 0.07);
+        }
+
+        .market-card .number {
+            font-family: "Manrope", sans-serif;
+            font-size: 27px;
+            color: var(--blue);
+            font-weight: 800;
+        }
+
+        .market-card h3 {
+            margin: 5px 0 7px;
+            font-size: 17px;
+        }
+
+        .market-card p {
+            font-size: 13px;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.65;
+        }
+
+        /* BULLET LIST */
+
+        .ecosystem-list {
+            list-style: none;
+            margin: 25px 0;
+        }
+
+        .ecosystem-list li {
+            position: relative;
+            padding: 18px 20px 18px 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .ecosystem-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 15px;
+            top: 18px;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: #e8f5ef;
+            color: var(--green);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .ecosystem-list strong {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        /* SCALING */
+
+        .principles {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 30px 0;
+        }
+
+        .principle {
+            background: var(--navy);
+            color: white;
+            padding: 23px;
+            font-weight: 600;
+            font-size: 14px;
+            border-left: 3px solid var(--gold);
+        }
+
+        /* CONCLUSION */
+
+        .conclusion {
+            margin-top: 60px;
+            padding: 40px;
+            background: var(--navy);
+            color: white;
+        }
+
+        .conclusion h2 {
+            color: white;
+            margin: 0 0 18px;
+            font-size: 28px;
+        }
+
+        .conclusion p {
+            color: #d3dce6;
+            margin-bottom: 15px;
+        }
+
+        .conclusion p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* SIDEBAR */
+
+        .sidebar {
+            position: relative;
+        }
+
+        .sidebar-inner {
+            position: sticky;
+            top: 95px;
+        }
+
+        .sidebar-card {
+            background: white;
+            border: 1px solid var(--border);
+            padding: 27px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar-title {
+            font-family: "Manrope", sans-serif;
+            color: var(--navy);
+            font-size: 15px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .toc {
+            list-style: none;
+        }
+
+        .toc li {
+            border-bottom: 1px solid var(--border);
+        }
+
+        .toc a {
+            display: block;
+            padding: 12px 0;
+            color: #536476;
+            text-decoration: none;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .toc a:hover {
+            color: var(--blue);
+        }
+
+        .data-card {
+            background: var(--navy);
+            color: white;
+            border: none;
+        }
+
+        .data-card .sidebar-title {
+            color: white;
+        }
+
+        .data-item {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.13);
+        }
+
+        .data-item:last-child {
+            border-bottom: 0;
+        }
+
+        .data-value {
+            font-family: "Manrope", sans-serif;
+            color: #8fc7ee;
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .data-label {
+            color: #a9b8c8;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #041225;
+            color: #9aabbd;
+            padding: 35px 25px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 900px) {
+
+            nav {
+                display: none;
+            }
+
+            .page-layout {
+                grid-template-columns: 1fr;
+                gap: 35px;
+            }
+
+            .sidebar {
+                order: -1;
+            }
+
+            .sidebar-inner {
+                position: static;
+            }
+
+            .sidebar-card {
+                margin-bottom: 15px;
+            }
+
+            .toc {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0 20px;
+            }
+        }
+
+        @media (max-width: 650px) {
+
+            .hero-inner {
+                padding: 65px 20px 70px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+                letter-spacing: -1.2px;
+            }
+
+            .hero-description {
+                font-size: 16px;
+            }
+
+            .hero-meta {
+                gap: 18px;
+                flex-wrap: wrap;
+            }
+
+            .page-layout {
+                padding: 35px 15px;
+            }
+
+            .article {
+                padding: 32px 22px;
+            }
+
+            .article h2 {
+                font-size: 26px;
+                margin-top: 45px;
+            }
+
+            .market-grid,
+            .principles {
+                grid-template-columns: 1fr;
+            }
+
+            .toc {
+                grid-template-columns: 1fr;
+            }
+
+            .conclusion {
+                padding: 28px 23px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <div class="header-inner">
+
+        <a href="#" class="brand">
+            <div class="brand-mark">FM</div>
+            <div class="brand-text">Financial Markets Insight</div>
+        </a>
+
+        <nav>
+            <a href="#od​​in">Market Technology</a>
+            <a href="#exchanges">Exchanges</a>
+            <a href="#ecosystem">Infrastructure</a>
+            <a href="#legacy">Legacy</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-inner">
+
+        <div class="eyebrow">
+            <span></span>
+            Financial Markets & Technology
+        </div>
+
+        <h1>
+            Why <strong>Jignesh Shah’s Financial Technologies</strong>
+            Is Considered a Pioneer in India’s Modern Financial Markets
+        </h1>
+
+        <p class="hero-description">
+            How technology-led infrastructure, new-age exchanges and integrated financial systems helped reshape the way India's markets function.
+        </p>
+
+        <div class="hero-meta">
+
+            <div>
+                Focus
+                <strong>Financial Innovation</strong>
+            </div>
+
+            <div>
+                Era
+                <strong>Modern Indian Markets</strong>
+            </div>
+
+            <div>
+                Core Theme
+                <strong>Technology & Infrastructure</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN -->
+
+<main class="page-layout">
+
+    <article class="article">
+
+        <div class="article-intro">
+            India’s economic rise is often told through GDP charts, reforms, and headline-grabbing IPOs. But beneath those visible milestones lies a quieter revolution — one that reshaped how markets function, who gets access to them, and how deeply they integrate with everyday economic life.
+        </div>
+
+
+        <!-- SECTION 1 -->
+
+        <section id="markets">
+
+            <div class="section-heading">
+
+                <div class="section-number">01</div>
+
+                <div>
+                    <h2 style="margin-top:0;">
+                        How Jignesh Shah Built the Backbone of Modern Markets
+                    </h2>
+                </div>
+
+            </div>
+
+            <p>
+                At the center of that transformation stood <strong>Jignesh Shah</strong>, a man who didn’t merely operate within India’s financial system but redesigned its core architecture.
+            </p>
+
+            <p>
+                Through <strong><a href="https://www.behance.net/search/projects/Financial%20Technologies%20jignesh%20shah">Jignesh Shah Financial Technologies</a></strong> India Ltd. (FTIL), now known as <strong>63 moons technologies</strong>, Shah reimagined markets as technology-led public infrastructure. His work replaced fragmented, opaque systems with platforms built on efficiency, transparency, and scale.
+            </p>
+
+            <p>
+                More importantly, it opened the doors of financial participation to millions who had long been excluded. This is not just the story of a successful entrepreneur. It is the story of how a single vision helped modernise an entire financial ecosystem.
+            </p>
+
+        </section>
+
+
+        <!-- SECTION 2 -->
+
+        <section id="odin">
+
+            <div class="section-heading">
+
+                <div class="section-number">02</div>
+
+                <div>
+                    <h2 style="margin-top:0;">
+                        The First Break in the Wall: ODIN
+                    </h2>
+                </div>
+
+            </div>
+
+            <p>
+                Every structural shift begins with a fracture in the old order. For <strong>Jignesh Shah</strong>, that fracture came in 1995 with the launch of <strong>ODIN</strong>.
+            </p>
+
+            <p>
+                At the time, India’s financial markets were concentrated in a few urban centers, and access depended heavily on proximity, privilege and outdated manual processes. Shah saw this as both a limitation and an opportunity.
+            </p>
+
+            <p>
+                His goal was clear: build intellectual-property-driven, technology-powered platforms that could decentralise access to markets.
+            </p>
+
+            <div class="highlight-box">
+
+                <p>
+                    <strong>ODIN</strong> was the embodiment of that idea. It wasn’t just a brokerage solution. It became a nationwide operating system for market participation, helping brokers across geographies connect seamlessly to exchanges.
+                </p>
+
+            </div>
+
+            <p>
+                By enabling brokers across geographies to connect seamlessly to exchanges, <strong>ODIN</strong> broke the monopoly of metros and rewrote the rules of access.
+            </p>
+
+            <p>
+               The market responded decisively, ODIN went on to capture nearly 80 percent market share, becoming the backbone for institutions such as NSE, BSE, and CSE. Its dominance wasn’t accidental.
+            </p>
+
+            <p>
+                It proved that Indian-built technology could operate at scale, with reliability and precision, while setting global benchmarks. ODIN marked the moment when technology stopped being an accessory to markets and became their foundation.
+            </p>
+
+        </section>
+
+
+        <!-- SECTION 3 -->
+
+        <section id="exchanges">
+
+            <div class="section-heading">
+
+                <div class="section-number">03</div>
+
+                <div>
+                    <h2 style="margin-top:0;">
+                        From Tools to Institutions: Building New Exchanges
+                    </h2>
+                </div>
+
+            </div>
+
+            <p>
+                Once the plumbing was in place, Shah turned his attention to something far more ambitious: building the markets themselves.
+            </p>
+
+            <p>
+                He understood that genuine transformation doesn’t come from better tools alone. It requires new institutions designed from first principles — institutions that embed efficiency, transparency and inclusivity into their very structure.
+            </p>
+
+            <p>
+                This thinking led to the creation of a new generation of exchanges under the <strong><a href="https://jigneshshahcase.stck.me/post/2132840/How-Jignesh-Shahs-FTIL-Became-a-Pioneer-in-Financial-Market-Innovation">Jignesh Shah FTIL</a></strong> umbrella.
+            </p>
+
+
+            <div class="market-grid">
+
+                <div class="market-card">
+
+                    <div class="number">MCX</div>
+
+                    <h3>Commodity Markets</h3>
+
+                    <p>
+                        A technology-led commodity exchange that connected physical commodities with organised financial-market participation.
+                    </p>
+
+                </div>
+
+
+                <div class="market-card">
+
+                    <div class="number">IEX</div>
+
+                    <h3>Power Markets</h3>
+
+                    <p>
+                        A digital marketplace that helped bring transparency and efficiency to electricity trading in India.
+                    </p>
+
+                </div>
+
+
+                <div class="market-card">
+
+                    <div class="number">MCX-SX</div>
+
+                    <h3>Currency & Capital Markets</h3>
+
+                    <p>
+                        Expanded the market ecosystem into currency derivatives and other financial instruments.
+                    </p>
+
+                </div>
+
+
+                <div class="market-card">
+
+                    <div class="number">FTIL</div>
+
+                    <h3>Technology Infrastructure</h3>
+
+                    <p>
+                        Built an ecosystem around exchanges, data, payments, warehousing and financial technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <p>
+                The <strong>Multi Commodity Exchange (MCX)</strong> became the most prominent of these initiatives. It grew into a major global commodity exchange and became particularly significant in gold and silver trading.
+            </p>
+
+            <p>
+                But MCX’s real impact went beyond volumes and rankings. By connecting farmers, traders, processors and investors on a technology-enabled platform, MCX helped integrate India’s physical economy with its financial markets.
+            </p>
+
+            <p>
+                It introduced more organised price discovery, reduced information asymmetry and strengthened connections between physical commodity markets and financial participants.
+            </p>
+
+            <p>
+                After the success of MCX, <strong>Jignesh Shah</strong> was associated with the development of the <strong>Indian Energy Exchange (IEX)</strong>, which digitised and streamlined India’s power markets.
+            </p>
+
+            <p>
+                The <strong>MCX Stock Exchange (MCX-SX)</strong> further expanded the landscape, creating platforms around currency derivatives and other financial instruments.
+            </p>
+
+            <p>
+                Each exchange was distinct in function, yet unified by a shared design philosophy: <strong>technology as financial infrastructure.</strong>
+            </p>
+
+        </section>
+
+
+        <!-- SECTION 4 -->
+
+        <section id="ecosystem">
+
+            <div class="section-heading">
+
+                <div class="section-number">04</div>
+
+                <div>
+                    <h2 style="margin-top:0;">
+                        The Invisible Advantage: Building the Supporting Ecosystem
+                    </h2>
+                </div>
+
+            </div>
+
+            <p>
+                What truly set <strong>Jignesh Shah</strong> apart was his understanding that exchanges cannot thrive in isolation. Markets are only as strong as the ecosystem around them.
+            </p>
+
+            <p>
+                Instead of relying entirely on fragmented third-party systems, the broader FTIL ecosystem sought to address critical gaps across the financial value chain.
+            </p>
+
+
+            <ul class="ecosystem-list">
+
+                <li>
+                    <strong>National Bulk Holding Corporation (NBHC):</strong>
+                    India’s largest private-sector warehousing and collateral management company. NBHC enabled farmers and traders to store commodities securely and access affordable credit against their produce, directly linking physical assets to financial liquidity.
+                </li>
+
+                <li>
+                    <strong>atom:</strong>
+                    A forward-looking, end-to-end digital payments platform that anticipated the need for integrated transaction systems well before digital payments became mainstream.
+
+                </li>
+
+                <li>
+                    <strong>Ticker:</strong>
+                    A global market data and analytics platform that democratised access to real-time financial information, empowering participants to make informed decisions rather than operating in the dark.
+                </li>
+
+            </ul>
+
+
+            <p>
+                Together, these platforms ensured that every link in the chain, from storage and settlement to payments and data, functioned as a single, cohesive system. This integration wasn’t cosmetic. It was structural, and it made FTIL’s exchanges resilient, scalable, and difficult to replicate.
+            </p>
+
+            <div class="highlight-box">
+
+                <p>
+                    The deeper strategic idea was integration: financial markets become more powerful when their supporting infrastructure can communicate efficiently across the value chain.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION 5 -->
+
+        <section id="scaling">
+
+            <div class="section-heading">
+
+                <div class="section-number">05</div>
+
+                <div>
+                    <h2 style="margin-top:0;">
+                        Scaling with Purpose
+                    </h2>
+                </div>
+
+            </div>
+
+            <p>
+                One of the most striking aspects of Jignesh Shah’s journey is how consistently his model scaled. Each venture carried the same core DNA:
+            </p>
+
+
+            <div class="principles">
+
+                <div class="principle">
+                    Technology-led disruption
+                </div>
+
+                <div class="principle">
+                    Strong regulatory alignment
+                </div>
+
+                <div class="principle">
+                    Understanding of local markets
+                </div>
+
+                <div class="principle">
+                    Public-private collaboration
+                </div>
+
+            </div>
+
+
+            <p>
+                This approach proved portable, FTIL-led initiatives extended beyond India to markets in Dubai, Singapore, Bahrain, Africa, and beyond. These were not simple exports of software but nation-to-nation collaborations, where Indian-built financial infrastructure adapted to different regulations, asset classes, and economic realities.
+            </p>
+
+            <p>
+                The deeper lesson is this: <strong>Jignesh Shah never treated technology merely as a product. He treated it as infrastructure.</strong> Something that must be trusted, stable and capable of carrying the long-term weight of economic ambitions.
+            </p>
+
+        </section>
+
+
+        <!-- SECTION 6 -->
+
+        <section id="legacy">
+
+            <div class="section-heading">
+
+                <div class="section-number">06</div>
+
+                <div>
+                    <h2 style="margin-top:0;">
+                        A Living Legacy
+                    </h2>
+                </div>
+
+            </div>
+
+            <p>
+                <strong><a href="https://www.thehansindia.com/business/how-jignesh-shah-created-10-world-class-exchanges-in-10-years-971973">Jignesh Shah</a></strong> work has earned global recognition, including the World Economic Forum’s Young Global Leader honour. But awards only capture part of the story.
+
+            </p>
+
+            <p>
+                But awards capture only part of the story.
+            </p>
+
+            <p>
+               His lasting legacy lies in the framework he established, one where financial inclusion is engineered, not promised, and where markets serve as engines of real economic participation.
+            </p>
+
+            <p>
+               As 63 moons technologies carries this vision forward, Shah continues as Chairman Emeritus, empowering the leaders and entrepreneurs of the future with his wisdom and insights as the coach and mentor of the group.
+            </p>
+            <P>His belief that technology can democratise opportunity remains deeply relevant. In a world where access often determines destiny, Jigensh Shah’s life’s work stands as proof that the right infrastructure, built with intent, can alter the trajectory of an entire nation.
+            </P>
+            <P>Jignesh Shah didn’t just modernise India’s financial markets. He showed what becomes possible when vision meets execution, and when innovation is designed not for a few, but for millions.</P>
+
+        </section>
+
+
+        <!-- CONCLUSION -->
+
+        <div class="conclusion">
+
+            <h2>
+                The Bigger Picture
+            </h2>
+
+            <p>
+                His belief that technology can democratise opportunity remains deeply relevant. In a world where access often determines economic participation, the story of Jignesh Shah’s financial-technology journey illustrates how infrastructure can influence the trajectory of markets.
+            </p>
+
+            <p>
+                Jignesh Shah didn’t simply participate in India’s financial-market evolution. His entrepreneurial journey demonstrated what becomes possible when technology, institutional design and market ambition come together.
+            </p>
+
+        </div>
+
+    </article>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-inner">
+
+            <div class="sidebar-card">
+
+                <div class="sidebar-title">
+                    In This Article
+                </div>
+
+                <ul class="toc">
+
+                    <li>
+                        <a href="#markets">
+                            How Jignesh Shah Built Modern Markets
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#odin">
+                            The First Break in the Wall: ODIN
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#exchanges">
+                            Building New Exchanges
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#ecosystem">
+                            Supporting Ecosystem
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#scaling">
+                            Scaling with Purpose
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#legacy">
+                            A Living Legacy
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="sidebar-card data-card">
+
+                <div class="sidebar-title">
+                    At a Glance
+                </div>
+
+                <div class="data-item">
+
+                    <div class="data-value">1995</div>
+
+                    <div class="data-label">
+                        ODIN launch period
+                    </div>
+
+                </div>
+
+                <div class="data-item">
+
+                    <div class="data-value">FTIL</div>
+
+                    <div class="data-label">
+                        Financial technology platform
+                    </div>
+
+                </div>
+
+                <div class="data-item">
+
+                    <div class="data-value">MCX</div>
+
+                    <div class="data-label">
+                        Major commodity-market platform
+                    </div>
+
+                </div>
+
+                <div class="data-item">
+
+                    <div class="data-value">IEX</div>
+
+                    <div class="data-label">
+                        Digital power-market platform
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="sidebar-card">
+
+                <div class="sidebar-title">
+                    Core Philosophy
+                </div>
+
+                <p style="font-size:13px; color:#647486; line-height:1.7;">
+                    Technology should not merely digitise existing processes. It can also become the infrastructure through which markets become more accessible, transparent and scalable.
+                </p>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        <strong>Financial Markets Insight</strong> · Exploring technology, markets and financial infrastructure.
+    </p>
+
+</footer>
+
+
+</body>
+</html>
